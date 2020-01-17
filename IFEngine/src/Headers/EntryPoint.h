@@ -1,8 +1,3 @@
-// Preprocessor Directives
-#ifndef GLITTER
-#define GLITTER
-#pragma once
-
 // System Headers
 #include <assimp/Importer.hpp>
 #include <assimp/postprocess.h>
@@ -17,8 +12,10 @@
 //     #define STB_IMAGE_IMPLEMENTATION
 #include <stb_image.h>
 
+
+int main(int argc, char* argv[]);
+
+
 // Define Some Constants
 const int mWidth = 1280;
 const int mHeight = 800;
-
-#endif //~ Glitter Header

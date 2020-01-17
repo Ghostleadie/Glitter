@@ -22,3 +22,12 @@
     path = Glitter/Vendor/bullet
     url = https://github.com/bulletphysics/bullet3.git
     branch = master
+[submodule "IFEngine/Vendor/freetype"]
+	path = IFEngine/Vendor/freetype
+	url = https://github.com/rougier/freetype-gl
+[submodule "IFEngine/Vendor/spdlog"]
+	path = IFEngine/Vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "IFEngine/Vendor/openal"]
+	path = IFEngine/Vendor/openal
+	url = https://github.com/kcat/openal-soft.git
